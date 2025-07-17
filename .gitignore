@@ -1,0 +1,53 @@
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar # Don't commit the wrapper JAR itself, only the properties file
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/ # This covers the NetBeans build output at its root
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store    # Mac
+Thumbs.db    # Windows
+
+# Log and Temp files
+*.log
+logs/
+tmp/
+
+# Environment files (e.g., if you use .env for local config)
+.env
+
+# Spring Boot specific (optional, based on your setup)
+# If your application.properties contains sensitive credentials for local development, you might ignore it.
+# Otherwise, it's typically committed. If you ignore it, ensure you have a way to provide it on other machines.
+# src/main/resources/application.properties
