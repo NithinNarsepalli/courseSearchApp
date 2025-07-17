@@ -83,6 +83,7 @@ To set up and run this application locally, ensuring a smooth operational experi
     java -jar target/courseSearchApp-0.0.1-SNAPSHOT.jar
     ```
     The application will commence operation on `http://localhost:8080`.
+    Upon startup, the application automatically reads `sample-courses.json` from `src/main/resources/` and bulk-indexes the course data into Elasticsearch.
 
 ## Commitment to Version Control & Future Development
 
